@@ -12,4 +12,4 @@ class Solution:
 obj = Solution()
 print(obj.twoSum([2,7,11,15],9))
 #comment
-#comment 2
+#server_var_keleli_comment 2
