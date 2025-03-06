@@ -1,0 +1,25 @@
+#Binary Sequence: longest sequence of zeros in binary representation of an integer.
+def binarygap(A):
+    B=0
+    count=0
+    for i in A:
+        if i=='0':
+            print(f"i is {i}")
+            count +=1
+            print(f"count is {count}")
+
+    return count
+            
+
+
+
+
+
+
+
+num=67
+A=str(bin(num))
+print(A)
+# A='10000101000000001'
+# print(A[2:])
+print(binarygap(A[2:]))

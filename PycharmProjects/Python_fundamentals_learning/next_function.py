@@ -1,0 +1,13 @@
+# print(next(evenNumbers(10)))
+
+li = iter([324,23,13])
+o = next(li)
+print(o)
+o = next(li)
+print(o)
+o = next(li)
+print(o)
+o = next(li)
+print(o)
+o = next(li)
+print(o)

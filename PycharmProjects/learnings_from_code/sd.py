@@ -1,0 +1,27 @@
+M = int(input())
+Ma = input()
+fis = set(Ma.split())
+
+N = int(input())
+Nb = input()
+Sec = set(Nb.split())
+
+# print(fis)
+# print(Sec)
+a = fis.difference(Sec)
+b = Sec.difference(fis)
+# print(a)
+# print(b)
+f = a.union(b)
+# sor= sorted(f)
+# print("sorted set is", sor)
+li = list(map(int, f))
+# print("Sorted list is", li)
+# print(li)
+li.sort()
+le = len(li)
+# print(li)
+
+# print(le)
+for i in range(0, le):
+    print(li[i])

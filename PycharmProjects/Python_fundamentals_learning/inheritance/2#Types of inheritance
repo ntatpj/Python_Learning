@@ -1,0 +1,5 @@
+SINGLE : child class inherits properties and behaviors from a single parent class.
+This is simplest and most common form of inheritance
+MULTIPLE
+MUTILEVEL
+HYBRID = MULTIPLE + MULTILEVEL
